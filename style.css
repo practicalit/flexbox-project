@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(247, 248, 243);
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.logo {
+    /* width: 5%; */
+    flex-basis: 5% ;
+}
+.logo-image {
+    width: 100%;
+    margin-left: 30px;
+}
+
+nav {
+    flex: 0.75;
+    margin-right: 100px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+nav ul li {
+    display: inline;
+    border-bottom: 1px dotted rgb(239, 245, 229);
+    margin: 0px 10%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    font-size: 20px;
+    color: brown;
+    text-decoration: underline;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+    margin-top: 20px;
+}
+.left-bar {
+    width: 40%;
+    padding: 20px 50px;
+    color: rgba(2, 37, 2, 0.431);
+    font-size: 30px;
+}
+.beetle {
+    width: 60%;
+    /*flex-basis: 60%;*/
+    text-align: center;
+}
+.about {
+    margin-left: 20px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: black;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 22px;
+    line-height: 35px;
+    border-bottom: 0.1px gray dotted;
+}
+aside h1 {
+    /*white-space: nowrap;*/
+}
+.beetle-car {
+    width: 60%;
+}
+footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 20vh;
+}
+footer ul li {
+    margin: 10px 20px;
+    font-size: 14px;
+    font-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
